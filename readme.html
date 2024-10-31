@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="949.43">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Arial; color: #333333}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Arial; color: #333333; min-height: 15.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<p class="p1">The Searchles Discovery Wordpress Widget is a wrapper that displays the Searchles Discovery Widget in the sidebar of a Wordpress blog on the posts page. Just as you can configure the colors and widget of the Searchles Widget, you can do the same in the wordpress admin tool. Assuming that you have already signed up for Searchles Discovery, To use simply do the following:</p>
+<p class="p2"><br></p>
+<ol class="ol1">
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">In the wordpress admin tool, upload the widget and activate it (Plugins &gt; Add New)</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Go to Appearance &gt; Widgets.<span class="Apple-converted-space">  </span>Searchles Discovery should appear in the widgets</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Click on "Add" next to "Searchles Discovery"</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">In the right-hand side, in the settings of the widget, enter the client ID. Also, you can configure colors and width/height</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Now, by default, the widget will not display in the posts page. This isn't because of the widget itself, but because of the fact that the wordpress sidebar does not show up on posts pages. To enable this, you can do the following: (The following is standard wordpress functionality, ignore if you are already familiar with it):</li>
+  <ol class="ol1">
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Go to the template that you are using in wordpress in the admin tool</li>
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Click on the Main Index Page to change it</li>
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Notice that the main div has the class "narrowcolumn", you'll be changing the posts page to this so the sidebar will appear correctly</li>
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Go towards the bottom of the file, and select the line: &lt;?php get_sidebar(); ?&gt;</li>
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Click on the Single Page in the template</li>
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Change the class name from "widecolumn" to "narrowcolumn" in the top dif, usually the first one you see</li>
+    <li style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 13.0px Arial; color: #666666">Go towards the bottom of the page, and above the line that displays the footer, add the code that displays the sidebar (that you copied from the Main Index Page)</li>
+  </ol>
+</ol>
+</body>
+</html>
